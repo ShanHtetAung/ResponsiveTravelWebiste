@@ -380,8 +380,8 @@ body{
   .header .gnav{
     position: absolute;
     top: 7.813vw;
-    right: -100vw;
-    width: 100%;
+/*     right: -100vw; */
+    width: 0;
     height: 100%;
     padding: 7.969vw 0;
     background-color: #F6F8F9;
@@ -392,6 +392,7 @@ body{
   .header .gnav.is-show {
     right: 0;
     opacity: 1;
+    width: 100%;
   }
 
 
